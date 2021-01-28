@@ -35,7 +35,7 @@ Coroutine::run(function () use ($server) {
     }
 });
 
-sleep(0);
+sleep(1);
 
 $wr = new WaitReference();
 $randoms = getRandomBytesArray(TEST_MAX_REQUESTS, TEST_MAX_LENGTH);
